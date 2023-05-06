@@ -1,0 +1,84 @@
+body{
+    background-color:black;
+}
+
+    
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+  }
+  
+  .error-message {
+    text-align: center;
+    margin-right: 50px;
+  }
+  
+  .error-message h1 {
+    font-size: 8em;
+    margin: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px #c0392b, 2px 2px #c0392b, 3px 3px #c0392b, 4px 4px #c0392b, 5px 5px #c0392b, 6px 6px #c0392b, 7px 7px #c0392b, 8px 8px #c0392b, 9px 9px #c0392b, 10px 10px #c0392b, 11px 11px #c0392b, 12px 12px #c0392b, 13px 13px #c0392b, 14px 14px #c0392b, 15px 15px #c0392b, 16px 16px #c0392b, 17px 17px #c0392b, 18px 18px #c0392b, 19px 19px #c0392b, 20px 20px #c0392b, 21px 21px #c0392b, 22px 22px #c0392b, 23px 23px #c0392b, 24px 24px #c0392b, 25px 25px #c0392b;
+  }
+  
+  .error-message p {
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: #ffffff;
+  }
+  
+  .error-message a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #c0392b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .error-message a:hover {
+    background-color: #e74c3c;
+  }
+  
+  
+ .img-container .img{
+    width: 230px;
+    animation: floaty 1.8s infinite alternate;
+ }
+
+ .img-container .img {
+    justify-self: center;
+ }
+
+ .img-shadow{
+    width: 231px;
+    height: 24px;
+    background-color: hsla(38,21%, 19%,.16);
+    margin: auto;
+    border-radius: 50%;
+    filter: blur(7px);
+    animation: shadow 1.8s infinite alternate;
+ }
+
+/*animacion de imagen*/
+@keyframes floaty {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  }
+  
+  @keyframes shadow {
+    0% {
+      transform: scale(1, 1);
+    }
+    100% {
+      transform: scale(.85, .85);
+    }
+}
